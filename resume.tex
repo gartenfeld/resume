@@ -1,0 +1,62 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\geometry{margin=0.75in}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1ex}{0.5ex}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue,
+  linkcolor=black,
+  pdfauthor={David Rosson},
+  pdftitle={David Rosson -- Resume}
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{David Rosson}}\\[0.4em]
+  \href{mailto:your.email@example.com}{your.email@example.com} \quad $|$ \quad
+  Phone \quad $|$ \quad
+  Location \quad $|$ \quad
+  \href{https://linkedin.com/in/yourprofile}{LinkedIn}
+\end{center}
+\vspace{0.5em}
+
+\section{Experience}
+
+\textbf{Job Title} \hfill City, State \\
+\textit{Company Name} \hfill Start -- Present
+\begin{itemize}[leftmargin=*,nosep]
+  \item Achievement or responsibility with impact (metrics if possible).
+  \item Another bullet; keep to 2--4 per role.
+\end{itemize}
+
+\vspace{0.3em}
+\textbf{Previous Role} \hfill City, State \\
+\textit{Previous Company} \hfill Month Year -- Month Year
+\begin{itemize}[leftmargin=*,nosep]
+  \item Key responsibility or outcome.
+\end{itemize}
+
+\section{Education}
+
+\textbf{Degree (e.g.\ B.S. Computer Science)} \hfill Graduation Year \\
+\textit{University Name}, City, State
+
+\section{Skills}
+
+Technologies: List key languages, frameworks, tools. \\
+Other: Leadership, communication, domain expertise as relevant.
+
+\end{document}
